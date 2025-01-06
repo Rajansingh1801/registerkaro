@@ -1,0 +1,41 @@
+.home-cont{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../../assets/home/homebg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 120px);
+    padding: 30px 65px;
+    display: flex;
+    align-items: center;
+    .line{
+        height: 1px;
+        width: 40px;
+        background-color: #F60014;
+        margin: 22px 0px;
+    }
+    h3{
+        
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .boxcont{
+        h4{
+            background: -webkit-linear-gradient(80deg,#FFA229, #1C4670);
+            background-clip:text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 900;
+            font-size: 22px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    h5{
+        font-size: 600;
+        font-size: 16px;
+    }
+}

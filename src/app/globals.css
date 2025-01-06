@@ -13,9 +13,35 @@
     --foreground: #ededed;
   }
 }
-
+*{
+  font-family: sans-serif
+}
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+.text-black{
+  color: black;
+}
+.text-white{
+  color: white;
+}
+.text-gray2{
+  color: rgba(90, 89, 89, 1);
+}
+.bg-primary{
+  background-color: #1C4670;
+}
+.img-fluid{
+  max-width: 100%;
+  max-height: 100%;
+}
+.btn1{
+  background-color: #1C4670;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border-radius: 4px;
+  padding: 12px 30px;
 }

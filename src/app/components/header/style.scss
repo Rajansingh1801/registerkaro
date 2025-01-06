@@ -1,0 +1,22 @@
+.mainheader{
+    border-bottom: 2px solid #D1D1D1;
+    height: 72px;
+    padding: 13px 60px;
+    .allsubbar{
+        cursor: pointer;
+        p{
+            padding-inline: 16px;
+            font-weight: 500;
+            color: black;
+        }
+        button{
+            cursor: pointer;
+            padding: 12px 30px;
+            border-radius: 4px;
+            background-color: #FFA229;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+}
