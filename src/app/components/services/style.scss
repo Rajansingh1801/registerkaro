@@ -1,0 +1,65 @@
+.Services{
+    padding: 70px 70px;
+    .heading{
+        p{
+            color: #EB8D15;
+            font-size: 14px;
+        }
+        h3{
+            padding-top: 10px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+    }
+    .bl{
+        border-left: 2px solid rgba(229, 226, 223, 1);
+    }
+    .main-cont{
+        position: relative;
+        margin-bottom: 30px;
+        padding: 40px;
+        height: 260px;
+        .cont{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            align-items: center;
+            .tf{
+                position: absolute;
+                left: -3px;
+                top: 25%;
+                background-color: #BB162B;
+                width: 4px;
+                height: 20px;
+            }
+            .tff{
+                position: absolute;
+                right: -3px;
+                bottom: 25%;
+                background-color: #BB162B;
+                width: 4px;
+                height: 20px;
+                z-index: 9;
+            }
+            h6{
+                margin-top: 10px;
+                font-size: 18px;
+                font-weight: 900;
+                color: black;
+                padding: 12px 0px;
+            }
+            p{
+                font-size: 16px;
+                color: #282728;
+                font-weight: 100;
+                padding: 8px 0px;
+                text-align: center;
+            }
+            button{
+                color: #001038;
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+    }
+}
